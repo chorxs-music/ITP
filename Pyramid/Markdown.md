@@ -12,11 +12,7 @@ I then created the *#* function that is *nested* inside the "i" function. The "i
 
 I ran into a problem trying to create the spaces. I first tried to manipulate the "print" command by adding a space before it, which didn't work as it ended up following the "j" function and spacing before every "#". I then realized that I can also add another nested range function "k", where for "k" is > "i", it would print a space. I wrote this BEFORE the "j" loop so the space places before the "#". If "stacks" = 3, "k" at "i" = 0 would run values from 0, 1, and 2. Realizing that "k" at 1 and 2 is > than "i" value of 0, it prints two spaces, then "j" would execute and print one hashtag. This was enlightening for me as I didn't actually have hopes that it would work, but it did.
 
-I did not use any external code to help me. However, I had ChatGPT explain to me how the nested loops worked for me to write the "k" loop (lol)
-
-**Chapter 7**
-
-One thing that I knew about was the updating variable feature. It seemed weird to me at first, but since the code runs from top to bottom, any new definition of a variable will override the previous one so that you won't need to create a separate variable to store the new value. However, i'm pretty sure there's a way to lock the value of a variable in place, i'm just not sure what it is on Python. I'm confused about the square root part. Why is it that the resulting number form Newton's square root formula keep changing? Although the values are miniscule, why shouldn't the answer stay consistent every time the code is ran? 
+I did not use any external code to help me. However, I had ChatGPT explain to me how the nested loops worked for me to write the "k" loop 
 
 **FizzBuzz**
 
