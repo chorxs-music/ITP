@@ -12,7 +12,7 @@ I then created the *#* function that is *nested* inside the "i" function. The "i
 
 I ran into a problem trying to create the spaces. I first tried to manipulate the "print" command by adding a space before it, which didn't work as it ended up following the "j" function and spacing before every "#". I then realized that I can also add another nested range function "k", where for "k" is > "i", it would print a space. I wrote this BEFORE the "j" loop so the space places before the "#". If "stacks" = 3, "k" at "i" = 0 would run values from 0, 1, and 2. Realizing that "k" at 1 and 2 is > than "i" value of 0, it prints two spaces, then "j" would execute and print one hashtag. This was enlightening for me as I didn't actually have hopes that it would work, but it did.
 
-I did not use any external code to help me. However, I had ChatGPT explain to me how the nested loops worked for me to write the "k" loop 
+I did not use any external code to help me. However, I had ChatGPT explain to me how the nested loops worked for me to write the "k" loop.
 
 **FizzBuzz**
 
